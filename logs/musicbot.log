@@ -1,0 +1,59 @@
+[20.004510880] 2020-04-20 16:50:13,685 - INFO - launcher: Starting sanity checks
+[21.004438400] 2020-04-20 16:50:13,686 - INFO - launcher: Checking for Python 3.5+
+[21.004438400] 2020-04-20 16:50:13,686 - INFO - launcher: Checking console encoding
+[21.004438400] 2020-04-20 16:50:13,686 - INFO - launcher: Setting console encoding to UTF-8
+[21.004438400] 2020-04-20 16:50:13,686 - INFO - launcher: Ensuring we're in the right environment
+[22.005081177] 2020-04-20 16:50:13,687 - INFO - launcher: Adding local bins/ folder to path
+[494.110345840] 2020-04-20 16:50:14,159 - INFO - launcher: Required checks passed.
+[495.110988617] 2020-04-20 16:50:14,160 - INFO - launcher: Optional checks passed.
+[495.110988617] 2020-04-20 16:50:14,160 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8952002525329590] 2020-04-20 16:50:14,561 - INFO - musicbot.config | In config.py::MainThread(29440), line 132 in run_checks: Using i18n: A:\DiscordBots\DJ BOT\TEST\config\i18n\cs.json
+[0.9042024612426758] 2020-04-20 16:50:14,570 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 225 in _setup_logging: Set logging level to INFO
+[0.9182054996490479] 2020-04-20 16:50:14,584 - DEBUG - musicbot.json | In json.py::MainThread(29440), line 8 in __init__: Init JSON obj with A:\DiscordBots\DJ BOT\TEST\config\i18n\cs.json
+[0.9612152576446533] 2020-04-20 16:50:14,627 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[0.9612152576446533] 2020-04-20 16:50:14,627 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 96 in __init__: Loaded autoplaylist with 2527 entries
+[1.0222291946411133] 2020-04-20 16:50:14,688 - DEBUG - musicbot.spotify | In spotify.py::MainThread(29440), line 74 in get_token: Created a new access token: {'access_token': 'BQCD-r1RC9FZ6_VfxMxWI0vjJhYzpBzylVyo8jdFNEXtZRGX_WN1mK-J-xIj5EVhLr-ZH7dnIAjKd3gmNM0', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1587397814}
+[1.0222291946411133] 2020-04-20 16:50:14,688 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 121 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[3.6428148746490479] 2020-04-20 16:50:17,308 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 951 in on_ready: Connection established, ready to go.
+[3.6428148746490479] 2020-04-20 16:50:17,308 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 342 in _cache_app_info: Caching app info
+[3.8248550891876221] 2020-04-20 16:50:17,490 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 789 in _scheck_server_permissions: Checking server permissions
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 797 in _scheck_configs: Validating config
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.config | In config.py::MainThread(29440), line 236 in async_validate: Validating options...
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 800 in _scheck_configs: Validating permissions config
+[3.8258562088012695] 2020-04-20 16:50:17,491 - DEBUG - musicbot.permissions | In permissions.py::MainThread(29440), line 94 in async_validate: Validating permissions...
+[3.8258562088012695] 2020-04-20 16:50:17,491 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 968 in on_ready: Connected: 345471474863439873/DJ [Bot]#8313
+[3.8268558979034424] 2020-04-20 16:50:17,492 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 976 in on_ready: Owner:     345268499146473473/Filipovnica#7686
+
+[3.8268558979034424] 2020-04-20 16:50:17,492 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 979 in on_ready: Guild List:
+[3.8268558979034424] 2020-04-20 16:50:17,492 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 983 in on_ready:  - CzechUnit
+[3.8268558979034424] 2020-04-20 16:50:17,492 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 1026 in on_ready: Bound to text channels:
+[3.8278563022613525] 2020-04-20 16:50:17,493 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 1027 in <listcomp>:  - CzechUnit/mainchat
+[3.8278563022613525] 2020-04-20 16:50:17,493 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 1052 in on_ready: Autojoining voice channels:
+[3.8278563022613525] 2020-04-20 16:50:17,493 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 1053 in <listcomp>:  - CzechUnit/ConversationStreet
+[3.8278563022613525] 2020-04-20 16:50:17,493 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 281 in _join_startup_channels: Attempting to join CzechUnit/ConversationStreet
+[4.4139888286590576] 2020-04-20 16:50:18,079 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 733 in deserialize_queue: Deserializing queue for 345463409455792128
+[4.5830268859863281] 2020-04-20 16:50:18,248 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 425 in get_player: Created player via deserialization for guild 345463409455792128 with 10 entries
+[4.5830268859863281] 2020-04-20 16:50:18,248 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 297 in _join_startup_channels: Joined CzechUnit/ConversationStreet
+[4.5830268859863281] 2020-04-20 16:50:18,248 - DEBUG - musicbot.entry | In entry.py::MainThread(29440), line 56 in get_ready_future: Created future for audio_cache\youtube-JZcPWKixbXg-PIRATES_OF_THE_CARIBBEAN_THEME_SONG_1_HOUR.m4a
+[4.5840272903442383] 2020-04-20 16:50:18,249 - DEBUG - musicbot.entry | In entry.py::MainThread(29440), line 56 in get_ready_future: Created future for audio_cache\youtube-JZcPWKixbXg-PIRATES_OF_THE_CARIBBEAN_THEME_SONG_1_HOUR.m4a
+[4.5840272903442383] 2020-04-20 16:50:18,249 - FFMPEG - musicbot.player | In player.py::MainThread(29440), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-JZcPWKixbXg-PIRATES_OF_THE_CARIBBEAN_THEME_SONG_1_HOUR.m4a
+[4.7950744628906250] 2020-04-20 16:50:18,460 - DEBUG - musicbot.player | In player.py::MainThread(29440), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0622BF50> using <discord.voice_client.VoiceClient object at 0x05917970>
+[4.7960741519927979] 2020-04-20 16:50:18,461 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 460 in on_player_play: Running on_player_play
+[4.7960741519927979] 2020-04-20 16:50:18,461 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 709 in serialize_queue: Serializing queue for 345463409455792128
+[14.7370643615722656] 2020-04-20 16:50:28,402 - INFO - musicbot.bot | In bot.py::MainThread(29440), line 2706 in on_message: 345268499146473473/Filipovnica#7686: !pause
+[14.7380645275115967] 2020-04-20 16:50:28,403 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 527 in on_player_pause: Running on_player_pause
+[6034.9754660129547119] 2020-04-20 18:30:48,641 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[6035.2081501483917236] 2020-04-20 18:30:48,874 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 709 in serialize_queue: Serializing queue for 345463409455792128
+[6035.2102415561676025] 2020-04-20 18:30:48,876 - DEBUG - musicbot.entry | In entry.py::MainThread(29440), line 56 in get_ready_future: Created future for None
+[6035.2102415561676025] 2020-04-20 18:30:48,876 - DEBUG - musicbot.entry | In entry.py::MainThread(29440), line 56 in get_ready_future: Created future for audio_cache\youtube-JZcPWKixbXg-PIRATES_OF_THE_CARIBBEAN_THEME_SONG_1_HOUR.m4a
+[6035.2102415561676025] 2020-04-20 18:30:48,876 - FFMPEG - musicbot.player | In player.py::MainThread(29440), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-JZcPWKixbXg-PIRATES_OF_THE_CARIBBEAN_THEME_SONG_1_HOUR.m4a
+[6035.2142555713653564] 2020-04-20 18:30:48,880 - DEBUG - musicbot.player | In player.py::MainThread(29440), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0622BF30> using <discord.voice_client.VoiceClient object at 0x05917970>
+[6035.2192561626434326] 2020-04-20 18:30:48,885 - INFO - musicbot.entry | In entry.py::MainThread(29440), line 207 in _download: Download cached: https://www.youtube.com/watch?v=JZcPWKixbXg
+[6035.6113116741180420] 2020-04-20 18:30:49,277 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 3004 in on_guild_available: Guild "CzechUnit" has become available.
+[6037.5972371101379395] 2020-04-20 18:30:51,263 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 951 in on_ready: Connection established, ready to go.
+[6037.5972371101379395] 2020-04-20 18:30:51,263 - DEBUG - musicbot.bot | In bot.py::MainThread(29440), line 956 in on_ready: Received additional READY event, may have failed to resume

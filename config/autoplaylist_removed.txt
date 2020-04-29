@@ -1,0 +1,28 @@
+# Entry removed Tue Apr  7 21:01:41 2020
+# Reason: ERROR: 1a1Ph-ioxoA: YouTube said: This video is no longer available because the YouTube account associated with this video has been terminated.
+#          Sorry about that.
+https://youtube.com/watch?v=1a1Ph-ioxoA
+
+################################
+
+# Entry removed Tue Apr  7 21:07:56 2020
+# Reason: ERROR: oZdiXvDU4P0: YouTube said: This video contains content from SME, who has blocked it in your country on copyright grounds.
+#          Sorry about that.
+https://youtube.com/watch?v=oZdiXvDU4P0
+
+################################
+
+# Entry removed Tue Apr  7 21:22:45 2020
+# Reason: ERROR: oQ3C8fjqu_A: YouTube said: This video is not available.
+#          Sorry about that.
+https://youtube.com/watch?v=oQ3C8fjqu_A
+
+################################
+
+# Entry removed Tue Apr  7 22:23:55 2020
+# Reason: ERROR: usGv0gB2zEU: YouTube said: The uploader has not made this video available in your country.
+#          Sorry about that.
+https://youtube.com/watch?v=usGv0gB2zEU
+
+################################
+
